@@ -1,4 +1,13 @@
-def get_coordinates(query):
-    if query == 'Lima,Peru':
-        return -12.0463731,-77.042754
-    return 0,0
+import requests
+
+
+def get_coordinates(city_name):
+    api_url = f"https://nominatim.openstreetmap.org/search?q={city_name}&format=json"
+    headers = {
+        'User-Agent': 'Testing App'
+    }
+    response = requests.get(api_url, headers=headers)
+    response_data = response.json()
+    
+    return float(response_data[0]['lat']), float(response_data[0]['lon'])
+    

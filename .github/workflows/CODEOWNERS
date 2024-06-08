@@ -13,5 +13,7 @@
 #
 
 # These owners will be the default owners for everything in the repo.
-
 * @Jerimy2021
+
+# Teacher Erick is the owner of the app folder
+/app/ @ericbiagioli

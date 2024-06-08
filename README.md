@@ -38,7 +38,7 @@ Los resultados que debemos tener es que todos los test pasen.
 
 Imagen de los test pasados:
 
-![Test](./images/pytests.png)
+![Test](./images/pytest.png)
 
 Al ejecutar esto me percate de la funcionalidad de como iba cambiando el codigo y como se iba implementando en el proyecto.
 en el archivo test_structural.py y la mejora constante en el archivo "example.py" (app). Por otro lado tambien se implemento el uso de pytest-cov para ver la cobertura de los test.
@@ -110,4 +110,4 @@ Con esto se puede ver que el proyecto esta corriendo en el puerto 8000 y se pued
 
 ![Docker](./images/docker.png)
 
-![Docker2](./images/docker_run.png)
+![Docker2](./images/run_docker.png)
